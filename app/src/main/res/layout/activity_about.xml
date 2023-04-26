@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F1EFEF"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alatsi"
+        android:text="About"
+        android:textColor="#1AC10E"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#12000000"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#DC051703"
+        android:fontFamily="@font/kalpurush"
+        android:padding="10dp"
+        android:text="প্রিয় শিক্ষার্থী ভাই অথবা বোন। আপনার ইংরেজি ভাষা শিক্ষার জন্যই এই অ্যাপ টি তৈরি । আপনি অ্যাপ টির মাধ্যমে সহজে ইংরেজি ভাষা শিখতে পারলে আমরা সার্থক। আশা করছি এই অ্যাপ টির মাধ্যমে আপনি খুব সহজেই  ইংরেজি  শিখতে পারছেন, আর যদি তাই হয়ে থাকে তাহলে আপনার কাছে তো একটি আবেদন করতেই পারি তাইনা...\nপ্লিজ প্লে স্টোরে গিয়ে এই অ্যাপ টিকে ৫ স্টার রিভিউ দিয়ে আসবেন 🥰। আর এই অ্যাপ টির ব্যাপারে আপনার ভালোলাগা প্রকাশ করবেন । "
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/rate_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/rate_ill" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
